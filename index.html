@@ -1,26 +1,58 @@
 <!DOCTYPE html>
-  <html lang="en">
-  <head>
+<html lang="en">
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="facebook-domain-verification" content="lcm7ry29br8p666nj991w5bw1w4wr2" />
-    <title>The Texas Triangle Collective</title>
     <style>
-      * { margin: 0; padding: 0; box-sizing: border-box; }
-      p { color: #1c1c1c; font-size: 15px; letter-spacing: 0.01em; margin-bottom: 1.5em; }
-    html, body { height: 100%; }
-    body {
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        p { color: #1c1c1c; font-size: 15px; letter-spacing: 0.01em; margin-bottom: 1.5em; }
+        html, body { height: 100%; }
+        body {
             background-color: #F2F3F4;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
             font-family: 'Work Sans', sans-serif;
-      }
-  </style>
-    </head>
-    <body>
-      <p>The Texas Triangle Collective.</p>
-      <p>Coming soon. </p>
-    </body>
-    </html>
+        }
+        .map {
+            max-width: 340px;
+            width: 100%;
+            margin-bottom: 1.5em;
+        }
+        .map img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        footer {
+            font-size: 0.68rem;
+            font-family: 'Work Sans', sans-serif;
+            color: #bbb;
+            letter-spacing: 0.1em;
+        }
+        footer a {
+            color: #999;
+            text-decoration: none;
+        }
+        footer a:hover {
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <p>The Texas Triangle Collective.</p>
+    <div class="map">
+        <img
+            src="https://upload.wikimedia.org/wikipedia/commons/3/31/Texas_Triangle,_Cities_and_Counties_map.svg"
+            alt="Map of the Texas Triangle region"
+        />
+    </div>
+    <p>Tenant research &amp; strategy. Coming soon.</p>
+    <footer>
+        Houston, TX &nbsp;&middot;&nbsp;
+        <a href="mailto:sam@thetexastriangle.org">sam@thetexastriangle.org</a>
+    </footer>
+</body>
+</html>
